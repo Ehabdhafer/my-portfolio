@@ -315,6 +315,38 @@ ul {
   grid-row: 8/10;
   grid-column: 8/10;
 }
+@media (max-width: 425px) {
+  .div5,
+  .div61 {
+    grid-column: 6;
+  }
+  .div7,
+  .div8,
+  .div9,
+  .div10,
+  .div11,
+  .div12 {
+    margin: 0 80px;
+  }
+  .div7 {
+    grid-column: 1;
+  }
+  .div8 {
+    grid-column: 4;
+  }
+  .div9 {
+    grid-column: 7;
+  }
+  .div10 {
+    grid-column: 1;
+  }
+  .div11 {
+    grid-column: 4;
+  }
+  .div12 {
+    grid-column: 7;
+  }
+}
 #Contact {
   height: 800px;
   grid-template-rows: repeat(8, 100px);
