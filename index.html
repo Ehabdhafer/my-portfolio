@@ -1,243 +1,940 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>My portfolio</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Ehab Abed Portfolio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
+
   <body>
-    <nav>
-      <img
-        src="pics/Screenshot 2023-09-24 171955.png"
-        alt="img not found"
-        id="logo"
-      />
-      <div class="buttons a">
-        <a href="#Home" class="aa">Home</a>
-        <a href="#About" class="aa">About</a>
-        <a href="#Qualifications" class="aa">Qualifications</a>
-        <a href="#Projects" class="aa">Projects</a>
-        <a href="#Contact" class="aa">Contact</a>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo scrollto"><a href="#hero">Ehab</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#skills">skills</a></li>
+            <li><a class="nav-link scrollto" href="#Projects">Projects</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#education">EDUCATION</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </nav>
-    <!-- --------------------Home Section----------------------------------- -->
-    <section id="Home">
-      <p class="ft">I’m Ehab Dhafer</p>
-      <p class="sd">A Web Developer</p>
-      <img src="pics/1448.png" alt="img not found" class="coding" />
-      <a href="#Contact" class="buttons b">Contact</a>
-      <a href="" class="buttons c">My CV</a>
-    </section>
-    <!-- --------------------About Section----------------------------------- -->
-    <section id="About">
-      <p class="title p1">About me</p>
-      <p class="title p2">My skills</p>
-      <div class="div1">
-        <ul>
-          <li>I have strong teamwork skills.</li>
-          <li>I work effectively with others to achieve a common goal.</li>
-          <li>I share my knowledge and expertise with others.</li>
-          <li>I'm open to feedback and suggestions from my team members.</li>
-          <li>
-            I identify and solve problems that arise during the development
-            process.
-          </li>
-        </ul>
-      </div>
-      <div class="div2">
-        <div class="div3">
-          <img src="pics/732212.png" alt="HTML" class="lang" />
-          <p class="p6">HTML</p>
-        </div>
-        <div class="div3">
-          <img src="pics/css.png" alt="CSS" class="lang" />
-          <p class="p6">CSS</p>
-        </div>
-        <div class="div3">
-          <img src="pics/js.png" alt="JAVASCRIPT" class="lang" />
-          <p class="p6">JAVASCRIPT</p>
-        </div>
-        <div class="div3">
-          <img src="pics/node js.png" alt="NODE JS" class="lang" />
-          <p class="p6">NODE JS</p>
-        </div>
-        <div class="div3">
-          <img src="pics/mysql.png" alt="SQL" class="lang" />
-          <p class="p6">SQL</p>
-        </div>
-        <div class="div3">
-          <img src="pics/MongoDB-Logo.png" alt="MongoDB" class="lang" />
-          <p class="p6">MongoDB</p>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <div
+      id="hero"
+      class="hero route bg-image"
+      style="
+        background-image: url(assets/img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjYyNy1hZXctNDctdGVjaG5vbG9neWJhY2tncm91bmRfMS5qcGc.webp);
+      "
+    >
+      <div class="overlay-itro"></div>
+      <div class="hero-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1 class="hero-title mb-4">I'm Ehab Abed</h1>
+            <p class="hero-subtitle">
+              <span
+                class="typed"
+                data-typed-items="Back-End Developer, Software Engineer, Web Developer"
+              ></span>
+            </p>
+            <p class="pt-3">
+              <a
+                class="btn btn-primary btn js-scroll px-4"
+                href="#about"
+                role="button"
+                >Learn More</a
+              >
+            </p>
+          </div>
         </div>
       </div>
-      <a href="" class="buttons d">Download CV</a>
-    </section>
-    <!-- --------------------Qualifications Section----------------------------------- -->
-    <section id="Qualifications">
-      <p class="title p3">Qualifications</p>
-      <div class="div4">
-        <p class="p8">
-          2023 - 2024 <img src="pics/orange.png" alt="logo" class="img4" />
-        </p>
-        <p class="p7">Web developer trainee at Orange Coding Academy</p>
-      </div>
-      <div class="div5">
-        <p class="p8">
-          2016 - 2021 <img src="pics/albalqa.jfif" alt="logo" class="img4" />
-        </p>
-        <p>
-          Bachelor's Degree of Mechanical Engineering from Al-Balqa’ Applied
-          University
-        </p>
-      </div>
-      <div class="div6">
-        <p class="p8">
-          2015 - 2016 <img src="pics/vision.jfif" alt="logo" class="img4" />
-        </p>
-        <p>
-          High School Diploma, Scientific department from Vision private School,
-          UAE
-        </p>
-      </div>
-      <div class="div61">
-        <p class="p8">year - year <img src="" alt="logo" class="img4" /></p>
-        <p class="p7">Soon</p>
-      </div>
-    </section>
-    <!-- --------------------Projects Section----------------------------------- -->
-    <section id="Projects">
-      <p class="title p3">Projects</p>
-      <div class="div7">
-        <div>
-          <img
-            src="pics/wireframe project.png"
-            alt="project img"
-            class="img2"
-          />
+    </div>
+    <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row" style="margin-top: 10%">
+                      <div class="col-sm-6 col-md-5">
+                        <div class="about-img">
+                          <img
+                            src="assets/img/WhatsApp Image 2023-11-08 at 12.44.20_8404300f.png"
+                            class="img-fluid rounded b-shadow-a"
+                            style="width: 150px; height: 170px"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-7">
+                        <div class="about-info">
+                          <p>
+                            <span class="title-s">Name: </span>
+                            <span>Ehab Abed</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Profile: </span>
+                            <span>Back-End Developer</span>
+                          </p>
+                          <p>
+                            <span class="title-s">Email: </span>
+                            <a href="mailto:ehabzaferabed@gmail.com">
+                              <span>ehabzaferabed@gmail.com</span>
+                            </a>
+                          </p>
+                          <p>
+                            <span class="title-s">Phone: </span>
+                            <a href="tel:00962787351848">
+                              <span>(+962) 78 735 1848</span>
+                            </a>
+                          </p>
+                        </div>
+                        <p class="pt-3">
+                          <a
+                            class="btn btn-primary btn js-scroll px-4"
+                            href="assets/img/Ehab Abed Backend-cv.pdf"
+                            target="_blank"
+                            role="button"
+                            >Download My CV
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                    <!-- <div class="skill-mf">
+                      <p class="title-s">Languages :</p>
+                      <span>Laravel</span>
+                      <div class="progress">
+                        <div></div>
+                      </div>
+                      <span>Node.JS</span>
+                      <div class="progress">
+                        <div></div>
+                      </div>
+                      <span>SQL</span>
+                      <div class="progress">
+                        <div></div>
+                      </div>
+                      <span>MongoDB</span>
+                      <div class="progress"></div>
+                    </div> -->
+                  </div>
+                  <div class="col-md-6">
+                    <div class="about-me pt-4 pt-md-0">
+                      <div class="title-box-2">
+                        <h5 class="title-left">About me</h5>
+                      </div>
+                      <p class="lead">
+                        Passionate programmer with a good foundation in Computer
+                        Science. My core skills include Laravel, Node JS, SQL,
+                        MongoDB, and more. Familiar with agile methodologies,
+                        problem-solving, and data structures.
+                      </p>
+                      <p class="lead">
+                        Successful in learning and applying new programming
+                        concepts and tackling challenging tasks. Programming has
+                        always been my creative outlet.
+                      </p>
+                      <p class="lead">
+                        I am determined to make a positive impact through
+                        programming. If you're looking for a dedicated
+                        programmer who thrives on challenges and embraces
+                        continuous growth, let's get in touch and explore
+                        opportunities to shape the future together.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div><p class="p4">Wireframe</p></div>
-        <div class="p5">
-          A wireframe is a low-fidelity sketch or drawing of a webpage or app
-          screen.
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= skills Section ======= -->
+      <section id="skills" class="services-mf pt-5 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">skills</h3>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/985px-Laravel.svg.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Laravel</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/node js.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Node.JS</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/mysql.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">MYSQL</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/MongoDB-Logo.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">MongoDB</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/PHP-logo.svg.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">PHP</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/js.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">JavaScript</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/postgresql.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">PostgreSQL</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/css.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">CSS</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/732212.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">HTML</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <a
-            href="https://www.figma.com/file/5lT8tLie4vPeNTzQk9sBGz/first-wireframe?type=design&node-id=0-1&mode=design&t=8LEeGpr1AzF1QUAv-0"
-            class="a2"
-            >View in figma</a
-          >
+      </section>
+      <!-- End skills Section -->
+
+      <!-- ======= Counter Section ======= -->
+      <!-- <div
+        class="section-counter paralax-mf bg-image"
+        style="background-image: url(assets/img/counters-bg.jpg)"
+      >
+        <div class="overlay-mf"></div>
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-check"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p
+                    data-purecounter-start="0"
+                    data-purecounter-end="450"
+                    data-purecounter-duration="1"
+                    class="counter purecounter"
+                  ></p>
+                  <span class="counter-text">WORKS COMPLETED</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"
+                    ><i class="bi bi-journal-richtext"></i
+                  ></span>
+                </div>
+                <div class="counter-num">
+                  <p
+                    data-purecounter-start="0"
+                    data-purecounter-end="25"
+                    data-purecounter-duration="1"
+                    class="counter purecounter"
+                  ></p>
+                  <span class="counter-text">YEARS OF EXPERIENCE</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-people"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p
+                    data-purecounter-start="0"
+                    data-purecounter-end="550"
+                    data-purecounter-duration="1"
+                    class="counter purecounter"
+                  ></p>
+                  <span class="counter-text">TOTAL CLIENTS</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-lg-3">
+              <div class="counter-box pt-4 pt-md-0">
+                <div class="counter-ico">
+                  <span class="ico-circle"><i class="bi bi-award"></i></span>
+                </div>
+                <div class="counter-num">
+                  <p
+                    data-purecounter-start="0"
+                    data-purecounter-end="48"
+                    data-purecounter-duration="1"
+                    class="counter purecounter"
+                  ></p>
+                  <span class="counter-text">AWARD WON</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="div8">
-        <div>
-          <img src="pics/mockup project.png" alt="project img" class="img2" />
+      </div> -->
+      <!-- End Counter Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <!-- <div
+        class="testimonials paralax-mf bg-image"
+        style="background-image: url(assets/img/overlay-bg.jpg)"
+      >
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="testimonials-slider swiper"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <div class="author-test">
+                        <img
+                          src="assets/img/testimonial-2.jpg"
+                          alt=""
+                          class="rounded-circle b-shadow-a"
+                        />
+                        <span class="author">Xavi Alonso</span>
+                      </div>
+                      <div class="content-test">
+                        <p class="description lead">
+                          Curabitur arcu erat, accumsan id imperdiet et,
+                          porttitor at sem. Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit.
+                        </p>
+                      </div>
+                    </div>
+                  </div> -->
+      <!-- End testimonial item -->
+
+      <!-- <div class="swiper-slide">
+                    <div class="testimonial-box">
+                      <div class="author-test">
+                        <img
+                          src="assets/img/testimonial-4.jpg"
+                          alt=""
+                          class="rounded-circle b-shadow-a"
+                        />
+                        <span class="author">Marta Socrate</span>
+                      </div>
+                      <div class="content-test">
+                        <p class="description lead">
+                          Curabitur arcu erat, accumsan id imperdiet et,
+                          porttitor at sem. Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit.
+                        </p>
+                      </div>
+                    </div>
+                  </div> -->
+      <!-- End testimonial item -->
+      <!-- </div>
+                <div class="swiper-pagination"></div>
+              </div> -->
+
+      <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+          
+        </div> -->
+      <!-- </div>
+          </div>
         </div>
-        <div><p class="p4">Mockup</p></div>
-        <div class="p5">
-          A mockup is a static simulation of a design or product that
-          illustrates what the final outcome might look like.
+      </div> -->
+      <!-- End Testimonials Section -->
+
+      <!-- ======= Projects Section ======= -->
+      <section id="Projects" class="blog-mf sect-pt4 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">Projects</h3>
+                <p class="subtitle-a">
+                  Explore My Projects: A Showcase of Innovation and Creativity
+                </p>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a
+                    href="https://www.linkedin.com/posts/ehab-abed_barakahproject-foodwasterevolution-circulareconomy-activity-7150066528938258432-QxuO/?utm_source=share&utm_medium=member_desktop"
+                    target="_blank"
+                    ><img
+                      src="assets/img/post-2.jpg"
+                      style="width: 414px; height: 276px"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">Barakah</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a
+                      href="https://www.linkedin.com/posts/ehab-abed_barakahproject-foodwasterevolution-circulareconomy-activity-7150066528938258432-QxuO/?utm_source=share&utm_medium=member_desktop"
+                      target="_blank"
+                    >
+                      Click to View Barakah Video</a
+                    >
+                  </h3>
+                  <p class="card-description">
+                    I've worked as a Backend Developer on the Barakah website,
+                    an online platform committed to minimizing food waste by
+                    connecting food providers with surplus and leftover foods to
+                    recycling agencies and charities.This foster efficiency in
+                    resource utilization. We used modern web technologies and
+                    best practices for this project, I use in Backend:
+                    Node.JS(Express.JS) | PostgreSQL | Firebase | Stripe |
+                    Google Api | Trello
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a
+                      href="https://github.com/Ehabdhafer/Barakah"
+                      target="_blank"
+                    >
+                      <img
+                        src="assets/img/github.png"
+                        alt=""
+                        class="avatar rounded-circle"
+                      />
+                      <span class="author">View Source Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a
+                    href="https://www.linkedin.com/posts/ehab-abed_craftvine-premiumfurniture-ecommerce-activity-7161946895928537088-uB65/?utm_source=share&utm_medium=member_desktop"
+                    target="_blank"
+                    ><img
+                      src="assets/img/work-2.jpg"
+                      style="width: 414px; height: 276px"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">CraftVine</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a
+                      href="
+                      https://www.linkedin.com/posts/ehab-abed_craftvine-premiumfurniture-ecommerce-activity-7161946895928537088-uB65/?utm_source=share&utm_medium=member_desktop"
+                      target="_blank"
+                    >
+                      Click to View CraftVine Video</a
+                    >
+                  </h3>
+                  <p class="card-description">
+                    I've worked as a Backend Developer on the CraftVine website
+                    with team, an online platform for buying and selling
+                    furniture. The goal was to create a user-friendly and
+                    visually appealing shopping experience while ensuring
+                    security. We used modern web technologies and best practices
+                    for this project, We use in Backend: PHP (Laravel) |
+                    PostgreSQL | Google Api | Firebase | Trello
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a
+                      href="https://github.com/Ehabdhafer/craftvine-laravel"
+                      target="_blank"
+                    >
+                      <img
+                        src="assets/img/github.png"
+                        alt=""
+                        class="avatar rounded-circle"
+                      />
+                      <span class="author">View Source Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                  <a
+                    href="
+                    https://www.linkedin.com/posts/ehab-abed_bookcraze-booklovers-webdevelopment-activity-7125745479912431616-WXRn/?utm_source=share&utm_medium=member_desktop"
+                    target="_blank"
+                    ><img
+                      src="assets/img/work-6.jpg"
+                      style="width: 414px; height: 276px"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">BookCraze</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title">
+                    <a
+                      href="
+                      https://www.linkedin.com/posts/ehab-abed_bookcraze-booklovers-webdevelopment-activity-7125745479912431616-WXRn/?utm_source=share&utm_medium=member_desktop"
+                      target="_blank"
+                    >
+                      Click to View BookCraze Video</a
+                    >
+                  </h3>
+                  <p class="card-description">
+                    A website dedicated to books, it is designed and developed
+                    to provide an interactive platform for book enthusiasts to
+                    discover, the application boasts a rich Book catalog Page,
+                    displaying detailed book information, and a User Profile
+                    Page for managing favorites and reading lists. We use: HTML5
+                    | CSS3 | JavaScript (ES6+) | JSON | Firebase | Trello
+                    management | Team work | (UX/UI Design)
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <div class="post-author">
+                    <a
+                      href="https://github.com/Ehabdhafer/book-reading"
+                      target="_blank"
+                    >
+                      <img
+                        src="assets/img/github.png"
+                        alt=""
+                        class="avatar rounded-circle"
+                      />
+                      <span class="author">View Source Code</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <a
-            href="https://www.figma.com/file/1ME66v8pzTdV9ovO4Tpn4u/first-mockup?type=design&node-id=0-1&mode=design&t=VbwI4UP5UloxsRoH-0"
-            class="a2"
-            >View in figma</a
-          >
+      </section>
+      <!-- End Projects Section -->
+
+      <!-- ======= EDUCATION Section ======= -->
+      <section id="education" class="services-mf pt-5 route">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="title-box text-center">
+                <h3 class="title-a">EDUCATION</h3>
+                <div class="line-mf"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/orange.png"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Orange Coding Academy</h2>
+                  <p class="s-description text-center">2023 - 2024</p>
+                  <p>4 Months Back-end web developer Bootcamp</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/albalqa.jfif"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Al-Balqa’ Applied University</h2>
+                  <p class="s-description text-center">2016 - 2021</p>
+                  <p>Bachelor's Degree of Mechanical Engineering</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-box">
+                <div class="service-ico">
+                  <img
+                    src="assets/img/vision.jfif"
+                    style="height: 100px; width: 100px"
+                    alt=""
+                  />
+                </div>
+                <div class="service-content">
+                  <h2 class="s-title">Vision private School, UAE</h2>
+                  <p class="s-description text-center">2015 - 2016</p>
+                  <p>High School, Scientific department</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="div9">
-        <div>
-          <img src="pics/flex project.png" alt="project img" class="img2" />
+      </section>
+      <!-- End EDUCATION Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section
+        id="contact"
+        class="paralax-mf footer-paralax bg-image sect-mt4 route"
+        style="background-image: url(assets/img/overlay-bg.jpg)"
+      >
+        <div class="overlay-mf"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="contact-mf">
+                <div id="contact" class="box-shadow-full">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="title-box-2">
+                        <h5 class="title-left">Send Your Inquiry</h5>
+                      </div>
+                      <div>
+                        <form
+                          action="https://formspree.io/f/mkndvjyp"
+                          method="post"
+                          class="php-email-form"
+                        >
+                          <div class="row">
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  name="name"
+                                  class="form-control"
+                                  id="name"
+                                  placeholder="Your Name"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  name="email"
+                                  id="email"
+                                  placeholder="Your Email"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  name="subject"
+                                  id="subject"
+                                  placeholder="Subject"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <textarea
+                                  class="form-control"
+                                  name="message"
+                                  rows="5"
+                                  placeholder="Message"
+                                  required
+                                ></textarea>
+                              </div>
+                            </div>
+                            <div class="col-md-12 text-center my-3">
+                              <div class="loading">Loading</div>
+                              <div class="error-message"></div>
+                              <div class="sent-message">
+                                Your message has been sent. Thank you!
+                              </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                              <button
+                                type="submit"
+                                class="button button-a button-big button-rouded"
+                              >
+                                Send Message
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="title-box-2 pt-4 pt-md-0">
+                        <h5 class="title-left">Get in Touch</h5>
+                      </div>
+                      <div class="more-info">
+                        <p class="lead">
+                          Looking to bring your website vision to life? I'm here
+                          to help! Let's work together to design and develop a
+                          stunning online presence that reflects your brand.
+                          Drop me a message, and let's start building something
+                          extraordinary. Your digital success starts here!
+                        </p>
+                        <ul class="list-ico">
+                          <li>
+                            <span class="bi bi-geo-alt"></span>
+                            Amman, Jordan
+                          </li>
+                          <li>
+                            <span class="bi bi-phone"></span>
+                            <a href="tel:00962787351848">
+                              <span>(+962) 78 735 1848</span>
+                            </a>
+                          </li>
+                          <li>
+                            <span class="bi bi-envelope"></span>
+                            <a href="mailto:ehabzaferabed@gmail.com">
+                              <span>ehabzaferabed@gmail.com</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="socials">
+                        <ul>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/ehab-abed-b755421aa/"
+                              target="_blank"
+                              ><span class="ico-circle"
+                                ><i class="bi bi-linkedin"></i></span
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/Ehabdhafer"
+                              target="_blank"
+                              ><span class="ico-circle"
+                                ><i class="bi bi-github"></i></span
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://facebook.com/ehab.bitawy"
+                              target="_blank"
+                              ><span class="ico-circle"
+                                ><i class="bi bi-facebook"></i></span
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://instagram.com/ehabbitawy?igshid=NzZlODBkYWE4Ng=="
+                              target="_blank"
+                              ><span class="ico-circle"
+                                ><i class="bi bi-instagram"></i></span
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div><p class="p4">Flex and Grid</p></div>
-        <div class="p5">
-          Flexbox and Grid are two powerful CSS layout tools that allow for a
-          unique level of customization in modern web design.
-        </div>
-        <div>
-          <a href="https://github.com/Ehabdhafer/Flex-and-Grid" class="a2"
-            >View in github</a
-          >
-        </div>
-      </div>
-      <div class="div10">
-        <div>
-          <img src="pics/coming soon.png" alt="project img" class="img2" />
-        </div>
-      </div>
-      <div class="div11">
-        <div>
-          <img src="pics/coming soon.png" alt="project img" class="img2" />
-        </div>
-      </div>
-      <div class="div12">
-        <div>
-          <img src="pics/coming soon.png" alt="project img" class="img2" />
-        </div>
-      </div>
-    </section>
-    <!-- --------------------Contact Section----------------------------------- -->
-    <section id="Contact">
-      <p class="title p3">Contact me</p>
-      <div class="div15">
-        <form>
-          <input type="text" class="in1" placeholder="Your Name" />
-          <input type="text" class="in1" placeholder="Your Email" />
-          <input type="text" class="in1" placeholder="Subject" />
-          <input type="text" class="in2" placeholder="Message" />
-          <input type="submit" value="Send it" class="in3" />
-        </form>
-      </div>
-    </section>
-    <!-- --------------------Footer Section----------------------------------- -->
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
     <footer>
-      <div class="div16">
-        <div class="buttons f">
-          <a href="#Home" class="aa">Home</a>
-          <a href="#About" class="aa">About</a>
-          <a href="#Qualifications" class="aa">Qualifications</a>
-          <a href="#Projects" class="aa">Projects</a>
-          <a href="#Contact" class="aa">Contact</a>
-        </div>
-        <div class="div13">
-          <div class="div14">
-            <img src="pics/address.png" alt="icon" class="img3" />
-            <p>Amman - Shafa Badran</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <p class="copyright">
+                &copy; <strong>2024 Ehab Abed</strong>. All Rights Reserved.
+              </p>
+            </div>
           </div>
-          <div class="div14">
-            <img src="pics/contact.png" alt="icon" class="img3" />
-            <p>+962 787351848</p>
-          </div>
-          <div class="div14">
-            <img src="pics/email.png" alt="icon" class="img3" />
-            <p>ehabzaferabed@gmail.com</p>
-          </div>
-        </div>
-        <div class="bb">&copy; 2023 Ehab Abed. All rights reserved.</div>
-        <div class="div17">
-          <a
-            href="https://www.linkedin.com/in/ehab-abed-b755421aa/"
-            class="a18"
-            target="_blank"
-          ></a>
-          <a
-            href="https://github.com/Ehabdhafer"
-            class="a19"
-            target="_blank"
-          ></a>
-          <a
-            href="https://m.facebook.com/ehab.bitawy"
-            class="a20"
-            target="_blank"
-          ></a>
-          <a
-            href="https://instagram.com/ehabbitawy?igshid=NzZlODBkYWE4Ng=="
-            class="a21"
-            target="_blank"
-          ></a>
         </div>
       </div>
     </footer>
+    <!-- End  Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
